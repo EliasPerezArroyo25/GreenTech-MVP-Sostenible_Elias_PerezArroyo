@@ -1,13 +1,21 @@
 # GreenTech-MVP-Sostenible_Elias_PerezArroyo
 
-Añadido color de fuente blanco para imitar version anterior<br>
-Eliminado atributos de botones de Bootstrap innecesarios<br>
-Modificado el elemento p añadiendo un estilo css en hero-gigante y su clase<br>
-Eliminada linea "<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>" ya que es un script que no se usa <br>
-Eliminado scripts innecesarios e ineficientes <br>
-Refactorizado el footer y añadido css para reemplazar a bootstrap <br>
-Modificado el enlace de la fuente para que solo descarge los weights necesarios (300,700)<br>
-La imagen se ha ajustado para que la que se descargue sea de un ancho de 1920px, tenga una calidad de 75 que hace se reduzca su peso, use el formato webp que es mucho más eficiente.<br>
-Se han eliminado del Header el link de Bootstrap ya que no es necesario y el link de Font Awesome ya que se ha sustituido el icono de este por un emoji<br>
-Finalmente he decido por no usar lazy loading al tratarse de la imagen principal y que es lo primero que se ve por lo que no tiene sentido que se le añada este atributo. Tendría más utilidad en imágenes que no se vean al iniciar la página o que no sea necesaria su descarga inmediata.  
+Todos los siguientes cambios realizados en código se han hecho con el objetivo de optimizar la página web y minimizar el uso de recursos para su funcionamiento manteniendo la mayor similitud con el diseño anterior: <br>
+
+1.Se ha refactorizado el código eliminando las referencias a Bootstrap tanto de CSS y JavaScript consiguiendo reducir el peso entre 250KB Y 300KB.<br>
+2.Se ha optimizado la descarga de fuentes al quitar los pesos 100,400 y 900, solo dejando 300 y 700 que son los que se usan. <br>
+3.Se ha sustituido el icono de Font Awesome por un emoji simple permitiendo deshacerse de la librería de iconos que pesa unos 30KB.<br>
+4.Se ha optimizado la imagen de fondo que se usaba reduciendo su tamaño de 3000px a 1920px, reduciendo su calidad de 80 a 75 y cambiado el formato a WebP [1] consiguiendo pasar de una imagen de 3MB a una de 250KB sin que el impacto visual sea importante. Esto reducirá el consumo de ancho de banda y todo el calor que produciría esto. <br>
+5.Se han eliminado las librerias jQuery y Moment.js del footer que llevaban a cabo un script que tenía un gran consumo respecto a lo que aportaba en la web. Menos procesos conllevará a menos trabajo de los componentes.<br>
+6.Se ha optado por no usar el atributo Lazy Loading ya que su uso en este caso no ofrecería beneficios al usarse en la imagen principal que siempre se cargará primero. En caso de hubiera otras imágenes en la web que no se vean de primera o que no sea necesaria su vista, si sería recomendable para estas.<br>
+7.Los CSS de Bootstrap han sido sustituidos por CSS nativos que se asemejan lo máximo posible a los anteriores, añadiendo nuevos y modificando algunos ya existentes.<br>
+8.Los atributos de botones también han sido sustituidos por el ya existente nativo que ha sido modificado también.<br>
+
+Todas estas optimizaciones consiguen que el estrés y consumo de energía en los componentes tanto de los ordenadores personales como los de centros de datos que producirían calor y a su vez un impacto negativo en el medioambiente se reduzcan ya que necesitan menos potencia para trabajar con archivos menos pesados y operaciones menos complejas. A su vez también se consigue que la potencia de cualquier ordenador no importe, no imponemos nuestras requerimientos como programadores a los usuarios sino que trabajamos para la comodidad y facilidad de uso por ellos adaptando nuestros trabajos como puede ser esta web aplicando buenas prácticas con nuestros conocimientos así aportando a la sostenibilidad del entorno del hardware.<br>
+
+### Fuentes
+[1] Google Developers, "WebP: An image format for the Web," Google Open Source, 2024. [Online]. Available: https://developers.google.com/speed/webp.<BR>
+
+[2] Sustainable Web Design, "Standard for Sustainable Web Design," Mightybytes and Wholegrain Digital, 2023. [Online]. Available: https://sustainablewebdesign.org/. <BR>
+
 
