@@ -18,6 +18,8 @@ Todos los siguientes cambios realizados en código se han hecho con el objetivo 
 
 8.Los atributos de botones también han sido sustituidos por el ya existente nativo que ha sido modificado también.<br>
 
+9.Todos los estilos de CSS se han refactorizado a un archivo CSS externo llamado estilos.css.
+
 Todas estas optimizaciones consiguen que el estrés y consumo de energía en los componentes tanto de los ordenadores personales como los de centros de datos que producirían calor y a su vez un impacto negativo en el medioambiente se reduzcan ya que necesitan menos potencia para trabajar con archivos menos pesados y operaciones menos complejas. A su vez también se consigue que la potencia de cualquier ordenador no importe, no imponemos nuestras requerimientos como programadores a los usuarios sino que trabajamos para la comodidad y facilidad de uso por ellos adaptando nuestros trabajos como puede ser esta web aplicando buenas prácticas con nuestros conocimientos así aportando a la sostenibilidad del entorno del hardware.<br>
 
 ### Fuentes
