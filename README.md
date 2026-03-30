@@ -4,7 +4,7 @@ Todos los siguientes cambios realizados en código se han hecho con el objetivo 
 
 1.Se ha refactorizado el código eliminando las referencias a Bootstrap tanto de CSS y JavaScript consiguiendo reducir el peso entre 250KB Y 300KB.<br>
 
-2.Se ha optimizado la descarga de fuentes al quitar los pesos 100,400 y 900, solo dejando 300 y 700 que son los que se usan. <br>
+2.Se ha sustituido el uso de la fuente de Google por una nativa de CSS para ahorrar la descarga.<br>
 
 3.Se ha sustituido el icono de Font Awesome por un emoji simple permitiendo deshacerse de la librería de iconos que pesa unos 30KB.<br>
 
